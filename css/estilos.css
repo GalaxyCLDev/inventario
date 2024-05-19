@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Esto centra horizontalmente el contenido dentro del contenedor */
+}
+
+.main-content {
+    width: 60%; /* El contenido ocupará el 60% del ancho total */
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.form-inline {
+    display: inline-flex;
+}
